@@ -1,7 +1,10 @@
-# A project nodejs backend architecture E-commerce
+# A project Nodejs backend architecture E-commerce
 
 > Author: Tuantq - quoctuanit2018@gmail.com
 ---
+
+> #### **Documents:**
+> - [*Connect MongoDB to Node.js Using Mongoose and 7 things to implement in the system*](./docs/7_things_when_connect_mongodb.md)
 
 #### Packages install in this project:
 - **Express.js** is a web application framework for Node.js,designed to simplify the process of building robust and scalable web applications and APIs
@@ -20,3 +23,7 @@
     ```
     npm i compression --save-dev
     ```
+- **Mongoose** is an ODM (Object-Document Mapper) for MongoDB and is commonly used with Node.js applications.
+    ```
+    npm install mongoose
+    ```    
