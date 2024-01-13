@@ -1,0 +1,34 @@
+{
+  "name": "node.js-backend-architecture-ecommerce",
+  "version": "1.0.0",
+  "description": "Create a nodejs backend architecture ecommerce",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tqt97/Node.js-Backend-Architecture-eCommerce.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "MongoDB",
+    "AWS"
+  ],
+  "author": "TuanTQ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tqt97/Node.js-Backend-Architecture-eCommerce/issues"
+  },
+  "homepage": "https://github.com/tqt97/Node.js-Backend-Architecture-eCommerce#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "compression": "^1.7.4",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
+  }
+}
