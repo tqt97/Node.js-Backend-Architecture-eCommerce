@@ -1,7 +1,7 @@
 # A project Nodejs backend architecture E-commerce
 
-> Author: Tuantq - quoctuanit2018@gmail.com
----
+#### Author: TuanTQ - quoctuanit2018@gmail.com
+
 
 > #### **Documents:**
 > - [*Connect MongoDB to Node.js Using Mongoose and 7 things to implement in the system*](./docs/7_things_when_connect_mongodb.md)
