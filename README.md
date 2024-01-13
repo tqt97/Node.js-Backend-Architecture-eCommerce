@@ -6,6 +6,12 @@
 > #### **Documents:**
 > - [*Connect MongoDB to Node.js Using Mongoose and 7 things to implement in the system*](./docs/7_things_when_connect_mongodb.md)
 
+
+#### Run this project
+```
+node --watch server.js
+```
+
 #### Packages install in this project:
 - **Express.js** is a web application framework for Node.js,designed to simplify the process of building robust and scalable web applications and APIs
     ```
@@ -27,3 +33,7 @@
     ```
     npm install mongoose
     ```    
+- **dotenv** package is commonly used in Node.js applications to load environment variables from a .env file into process.env.
+    ```
+    npm install dotenv
+    ```
