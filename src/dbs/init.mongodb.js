@@ -7,15 +7,13 @@ const { countConnect } = require('../helpers/check.connect')
 
 const connectString = `mongodb://${host}:${port}/${dbName}`; // mongodb://localhost:27017/shopDEV
 
-console.log(`[INFO]::connectString::${connectString}`);
-
 mongoose
     .connect(connectString)
     .then(() => {
-        console.log(`MongoDB connected with ${countConnect()} connection at ${new Date()}\n`);
+        console.log(`[INFO]::MongoDB connected successfully with ${countConnect()} connection\n`);
     })
     .catch((err) => {
-        console.log(`Error Connect with MongoDB: ${err}`);
+        console.log(`[ERROR]::MongoDB connection error: ${err}\n`);
     });
 
 // apply singleton pattern
