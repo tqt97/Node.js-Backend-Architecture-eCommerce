@@ -1,7 +1,7 @@
 'use strict'
 
 const dev = {
-        host: process.env.DB_HOST || '127.0.0.1',
+        host: process.env.DB_HOST || 'localhost',
         port: process.env.DB_PORT || 27017,
         dbName: process.env.DB_NAME || 'shopDEV'
 }

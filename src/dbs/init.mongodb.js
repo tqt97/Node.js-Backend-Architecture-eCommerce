@@ -1,10 +1,13 @@
 'use strict'
 
-const mongoose = require("mongoose");
-const { host, port, dbName } = require("../configs/conf.mongodb");
+const mongoose = require("mongoose")
+
+const { host, port, dbName } = require("../configs/conf.mongodb")
 const { countConnect } = require('../helpers/check.connect')
 
-const connectString = `mongodb://${host}:${port}/${dbName}`;
+const connectString = `mongodb://${host}:${port}/${dbName}`; // mongodb://localhost:27017/shopDEV
+
+console.log(`[INFO]::connectString::${connectString}`);
 
 mongoose
     .connect(connectString)

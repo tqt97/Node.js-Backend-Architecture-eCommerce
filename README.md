@@ -23,7 +23,7 @@ node --watch server.js
     ```
 - **Helmet** is a popular package for securing Express.js applications by setting various HTTP headers
     ```
-    npm install helmet --save-dev
+    npm i helmet --save-dev
     ```
 - **Compression** is commonly used in Node.js applications to enable gzip compression for HTTP responses, which helps in reducing the size of the data sent over the network.
     ```
@@ -31,9 +31,25 @@ node --watch server.js
     ```
 - **Mongoose** is an ODM (Object-Document Mapper) for MongoDB and is commonly used with Node.js applications.
     ```
-    npm install mongoose
+    npm i mongoose
     ```    
-- **dotenv** package is commonly used in Node.js applications to load environment variables from a .env file into process.env.
+- **Dotenv** package is commonly used in Node.js applications to load environment variables from a .env file into process.env.
     ```
-    npm install dotenv
+    npm i dotenv
+    ```
+- **Bcrypt** is a popular library for hashing passwords in Node.js applications
+    ```
+    npm i bcrypt --save
+    ```
+- **Crypto** module provides cryptographic functionality, including hash functions, HMAC (Hash-based Message Authentication Code), and other cryptographic operations.
+    ```
+    npm i crypto --save
+    ```    
+- **JSON Web Tokens (JWT)** is commonly used for creating and verifying JSON Web Tokens (JWT) in Node.js applications.
+    ```
+    npm i jsonwebtoken --save
+    ```    
+- **Lodash** is a JavaScript library that provides utility functions for common programming tasks using a functional programming paradigm
+    ```
+    npm i lodash -save
     ```

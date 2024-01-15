@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "node --watch server.js"
   },
   "repository": {
     "type": "git",
@@ -24,8 +25,12 @@
   },
   "homepage": "https://github.com/tqt97/Node.js-Backend-Architecture-eCommerce#readme",
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "crypto": "^1.0.1",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
     "mongoose": "^8.0.4"
   },
   "devDependencies": {
