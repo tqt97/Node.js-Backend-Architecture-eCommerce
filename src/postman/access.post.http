@@ -1,12 +1,22 @@
 @url_dev=http://localhost:3000/v1/api
 
-### Sign Up
-POST {{url_dev}}/shop/signup
-Content-Type: application/json
-x-api-key: 68a4ff7084d57fe3ad4724dd6864648e3cc79efd7819ae0c5b9dddfee810f969bb66b19812c9bdd92b1c1838a194b506cab6c37dc4f36c023a9a96e256ab4379
+## Sign Up
+# POST {{url_dev}}/shop/signup
+# Content-Type: application/json
+# x-api-key: 4ef9927b028f4ab8bad87110c618e1d9facdaecccd796eab5be2816cff00d11a007963599588ae89bb7be552d2bd48d89ca28f7258cad1c7b07a7982c37e9236
 
-{
-    "name": "Tuan",
-    "email": "tuan08@gmail.com",
-    "password": "12341234"
-}
+# {
+#     "name": "Tuan",
+#     "email": "tuan@gmail.com",
+#     "password": "12341234"
+# }
+
+
+# POST {{url_dev}}/shop/login
+# Content-Type: application/json
+# # x-api-key: 4ef9927b028f4ab8bad87110c618e1d9facdaecccd796eab5be2816cff00d11a007963599588ae89bb7be552d2bd48d89ca28f7258cad1c7b07a7982c37e9236
+
+# {
+#     "email": "tuan1@gmail.com",
+#     "password": "12341234"
+# }
